@@ -1,20 +1,20 @@
-#import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt 
 
-#students = ["aditi", "shivam", "riya", "ram"]
-#marks = [55, 87, 99, 46]
+students = ["aditi", "shivam", "riya", "ram"]
+marks = [55, 87, 99, 46]
 
-#plt.bar(students, marks, color = "pink", edgecolor = "blue", width=0.5)
-#for i, value in enumerate(marks):
+plt.bar(students, marks, color = "pink", edgecolor = "blue", width=0.5)
+for i, value in enumerate(marks):
 
- #   plt.text(i, value +1, 
-  #          str(value),
-   #         ha = "center",
-    #        va = "bottom")
+    plt.text(i, value +1, 
+            str(value),
+            ha = "center",
+            va = "bottom")
 
-#plt.xlabel("students Marks")
-#plt.ylabel("marks of Subject")
-#plt.title("student with thier marks")
-#plt.show()
+plt.xlabel("students Marks")
+plt.ylabel("marks of Subject")
+plt.title("student with thier marks")
+plt.show()
 
 
 import matplotlib.pyplot as plt
@@ -44,4 +44,5 @@ plt.ylabel("monthly sales 2025 vs 2026")
 plt.title("sales comparison of two years")
 plt.grid()
 plt.legend()
+
 plt.show()
