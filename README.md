@@ -1,2 +1,2 @@
 # practice_repository01
-This repository contain my practice work.
+A Practice repository for learning and improving programming and data science conceptss through small examples and exercise.
